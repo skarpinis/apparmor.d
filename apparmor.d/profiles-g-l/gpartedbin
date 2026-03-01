@@ -99,7 +99,7 @@ profile gpartedbin @{exec_path} flags=(attach_disconnected) {
   profile bus {
     include <abstractions/base>
     include <abstractions/app/bus>
-    
+
     include if exists <local/gpartedbin_bus>
   }
 
